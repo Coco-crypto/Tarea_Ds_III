@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tarea_ds_iii.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.tarea_ds_iii.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.tarea_ds_iii.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/imagen1"
+        android:name="com.example.tarea_ds_iii.imagen1"
+        android:label="fragment_imagen1"
+        tools:layout="@layout/fragment_imagen1" />
+    <fragment
+        android:id="@+id/imagen2"
+        android:name="com.example.tarea_ds_iii.imagen2"
+        android:label="fragment_imagen2"
+        tools:layout="@layout/fragment_imagen2" />
+    <fragment
+        android:id="@+id/imagen3"
+        android:name="com.example.tarea_ds_iii.imagen3"
+        android:label="fragment_imagen3"
+        tools:layout="@layout/fragment_imagen3" />
+</navigation>
